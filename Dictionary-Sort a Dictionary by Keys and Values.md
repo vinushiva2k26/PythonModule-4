@@ -39,10 +39,7 @@ dictionary = {
     'orange': 'orange'
 }
 
-# Sort by keys
 sorted_keys = dict(sorted(dictionary.items()))
-
-# Sort by values
 sorted_values = dict(sorted(dictionary.items(), key=lambda item: item[1]))
 
 print("Original Dictionary:", dictionary)
